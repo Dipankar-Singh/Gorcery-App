@@ -14,6 +14,8 @@
 		2685F6D32C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6D22C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppTests.swift */; };
 		2685F6DD2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6DC2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITests.swift */; };
 		2685F6DF2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6DE2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift */; };
+		2685F6EF2C67D93E00FCBCA8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6EE2C67D93E00FCBCA8 /* LoginView.swift */; };
+		2685F6F12C67DE5A00FCBCA8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6F02C67DE5A00FCBCA8 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2685F6D82C67A8BD00FCBCA8 /* E-Commerce Grocery AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-Commerce Grocery AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2685F6DC2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Commerce_Grocery_AppUITests.swift; sourceTree = "<group>"; };
 		2685F6DE2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Commerce_Grocery_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2685F6EE2C67D93E00FCBCA8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2685F6F02C67DE5A00FCBCA8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		2685F6C02C67A8BB00FCBCA8 /* E-Commerce Grocery App */ = {
 			isa = PBXGroup;
 			children = (
+				2685F6EB2C67D8D300FCBCA8 /* Screens */,
 				2685F6C12C67A8BB00FCBCA8 /* E_Commerce_Grocery_AppApp.swift */,
 				2685F6C32C67A8BB00FCBCA8 /* ContentView.swift */,
 				2685F6C52C67A8BD00FCBCA8 /* Assets.xcassets */,
@@ -125,6 +130,31 @@
 				2685F6DE2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift */,
 			);
 			path = "E-Commerce Grocery AppUITests";
+			sourceTree = "<group>";
+		};
+		2685F6EB2C67D8D300FCBCA8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2685F6ED2C67D8F800FCBCA8 /* Login */,
+				2685F6EC2C67D8E300FCBCA8 /* Register */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2685F6EC2C67D8E300FCBCA8 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2685F6F02C67DE5A00FCBCA8 /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2685F6ED2C67D8F800FCBCA8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2685F6EE2C67D93E00FCBCA8 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2685F6EF2C67D93E00FCBCA8 /* LoginView.swift in Sources */,
+				2685F6F12C67DE5A00FCBCA8 /* RegisterView.swift in Sources */,
 				2685F6C42C67A8BB00FCBCA8 /* ContentView.swift in Sources */,
 				2685F6C22C67A8BB00FCBCA8 /* E_Commerce_Grocery_AppApp.swift in Sources */,
 			);
