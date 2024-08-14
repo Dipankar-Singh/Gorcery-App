@@ -16,6 +16,8 @@
 		2685F6DF2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6DE2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift */; };
 		2685F6EF2C67D93E00FCBCA8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6EE2C67D93E00FCBCA8 /* LoginView.swift */; };
 		2685F6F12C67DE5A00FCBCA8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6F02C67DE5A00FCBCA8 /* RegisterView.swift */; };
+		2685F6F52C6A86A900FCBCA8 /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6F42C6A86A900FCBCA8 /* index.swift */; };
+		2685F6F82C6D2C5D00FCBCA8 /* SellingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685F6F72C6D2C5D00FCBCA8 /* SellingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		2685F6DE2C67A8BD00FCBCA8 /* E_Commerce_Grocery_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Commerce_Grocery_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2685F6EE2C67D93E00FCBCA8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2685F6F02C67DE5A00FCBCA8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2685F6F42C6A86A900FCBCA8 /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = index.swift; sourceTree = "<group>"; };
+		2685F6F72C6D2C5D00FCBCA8 /* SellingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 		2685F6EB2C67D8D300FCBCA8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2685F6F62C6D2C2F00FCBCA8 /* SharedViews */,
+				2685F6F22C6A868D00FCBCA8 /* Index */,
 				2685F6ED2C67D8F800FCBCA8 /* Login */,
 				2685F6EC2C67D8E300FCBCA8 /* Register */,
 			);
@@ -155,6 +161,22 @@
 				2685F6EE2C67D93E00FCBCA8 /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		2685F6F22C6A868D00FCBCA8 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				2685F6F42C6A86A900FCBCA8 /* index.swift */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		2685F6F62C6D2C2F00FCBCA8 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				2685F6F72C6D2C5D00FCBCA8 /* SellingCard.swift */,
+			);
+			path = SharedViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +312,8 @@
 				2685F6EF2C67D93E00FCBCA8 /* LoginView.swift in Sources */,
 				2685F6F12C67DE5A00FCBCA8 /* RegisterView.swift in Sources */,
 				2685F6C42C67A8BB00FCBCA8 /* ContentView.swift in Sources */,
+				2685F6F52C6A86A900FCBCA8 /* index.swift in Sources */,
+				2685F6F82C6D2C5D00FCBCA8 /* SellingCard.swift in Sources */,
 				2685F6C22C67A8BB00FCBCA8 /* E_Commerce_Grocery_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
